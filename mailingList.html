@@ -10,6 +10,17 @@
           padding-top: 20px;
 
         }
+        #form {
+            text-align: center;
+            box-sizing: border-box;
+            font-size: larger;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+            height: 340px;
+            border-style: solid;
+        }
+        
     </style>
     <!-- Image and Text of the Header  -->
     <div id = header>
@@ -26,8 +37,34 @@
       <hr>
         <!-- Form Section -->
     <body>
+        <br>
+        <br>
+        <div id = "form">
+            <br>
         <form>
-
+            <label for = "list"> Full Name:</label>
+            <input id = "list" type = "text">
         </form>
+        <br>
+        <form>
+            <label for = "number"> Phone Number </label>
+            <input id = "number" type = "value">
+        </form>
+        <br>
+        <form>
+            <label for = "email"> Email Address:</label>
+            <input id = "email" type = "text">
+        </form>
+        <br>
+        <form>
+            <label for = "notes"> Anything you want us to know: </label>
+            <br>
+            <textarea id = "notes" rows = 5 cols = "30"></textarea>
+        </form>
+        <br>
+        <a href = "thankYou.html"><form>
+            <input style = "font-size: large;"type = "submit" value = "Submit">
+        </form></a>
+        </div>
     </body>
 </html>
